@@ -1,0 +1,167 @@
+{
+  "intents": [
+    {
+      "tag": "cursos",
+      "patterns": [
+        "Quais cursos de pós-graduação vocês oferecem?",
+        "Quais são os cursos disponíveis?",
+        "Cursos de graduação"
+      ],
+      "responses": [
+        "Oferecemos cursos de Administração, Engenharia, Medicina e muitos outros. Confira a lista completa no nosso site."
+      ]
+    },
+    {
+      "tag": "inscricao",
+      "patterns": [
+        "Como faço para me inscrever no vestibular?",
+        "Quais são os prazos de inscrição?",
+        "Inscrição para os cursos"
+      ],
+      "responses": [
+        "Você pode se inscrever pelo nosso site até o dia 30 de setembro. Para mais detalhes, acesse a página de inscrições."
+      ]
+    },
+    {
+      "tag": "horarios",
+      "patterns": [
+        "Qual o horário das aulas de administração?",
+        "Horário das aulas",
+        "Quando são as aulas de engenharia?"
+      ],
+      "responses": [
+        "As aulas de Administração ocorrem de segunda a sexta, das 8h às 12h. Consulte o site para horários específicos de outros cursos."
+      ]
+    },
+    {
+      "tag": "localizacao",
+      "patterns": [
+        "Onde fica o prédio de engenharia?",
+        "Localização dos prédios no campus",
+        "Como chegar ao prédio de medicina?"
+      ],
+      "responses": [
+        "O prédio de Engenharia está localizado no Campus Norte, próximo ao estacionamento B. Consulte o mapa do campus para mais detalhes."
+      ]
+    },
+    {
+      "tag": "contato",
+      "patterns": [
+        "Como entro em contato com a secretaria?",
+        "Telefone da secretaria",
+        "Email da secretaria"
+      ],
+      "responses": [
+        "Você pode entrar em contato com a secretaria pelo telefone (11) 1234-5678 ou pelo email secretaria@universidade.edu.br."
+      ]
+    },
+    {
+      "intents": [
+        {
+          "tag": "horarios",
+          "patterns": [
+            "quais são",
+            "são os",
+            "os horários",
+            "horários das",
+            "das aulas",
+            "aulas de",
+            "de administração",
+            "quais são os horários",
+            "horários das aulas",
+            "são os horários das",
+            "das aulas de",
+            "aulas de administração"
+          ],
+          "responses": [
+            "As aulas de Administração ocorrem de segunda a sexta, das 8h às 12h."
+          ]
+        }
+      ]
+    },
+    {
+      "intents": [
+        {
+          "tag": "cursos",
+          "patterns": [
+            "quais cursos de pós-graduação vocês oferecem",
+            "cursos de pós-graduação",
+            "quais são os cursos",
+            "os cursos disponíveis",
+            "cursos de graduação",
+            "quais cursos são oferecidos",
+            "pós-graduação e cursos oferecidos",
+            "quais cursos estão disponíveis"
+          ],
+          "responses": [
+            "Oferecemos cursos de Administração, Engenharia, Medicina e muitos outros. Confira a lista completa no nosso site."
+          ]
+        },
+        {
+          "tag": "inscricao",
+          "patterns": [
+            "como faço para me inscrever no vestibular",
+            "inscrição para o vestibular",
+            "quais são os prazos de inscrição",
+            "prazos de inscrição",
+            "inscrição para cursos",
+            "como inscrever-se no vestibular",
+            "quais são os prazos para inscrição",
+            "inscrição para cursos disponíveis"
+          ],
+          "responses": [
+            "Você pode se inscrever pelo nosso site até o dia 30 de setembro. Para mais detalhes, acesse a página de inscrições."
+          ]
+        },
+        {
+          "tag": "horarios",
+          "patterns": [
+            "qual o horário das aulas de administração",
+            "horário das aulas de administração",
+            "quando são as aulas de engenharia",
+            "horário das aulas",
+            "aulas de engenharia",
+            "horário administração",
+            "horário das aulas de engenharia",
+            "quando são aulas de administração"
+          ],
+          "responses": [
+            "As aulas de Administração ocorrem de segunda a sexta, das 8h às 12h. Consulte o site para horários específicos de outros cursos."
+          ]
+        },
+        {
+          "tag": "localizacao",
+          "patterns": [
+            "onde fica o prédio de engenharia",
+            "localização do prédio de engenharia",
+            "como chegar ao prédio de medicina",
+            "localização dos prédios no campus",
+            "prédio de medicina localização",
+            "localização prédio de engenharia",
+            "como chegar ao prédio",
+            "onde está o prédio de medicina"
+          ],
+          "responses": [
+            "O prédio de Engenharia está localizado no Campus Norte, próximo ao estacionamento B. Consulte o mapa do campus para mais detalhes."
+          ]
+        },
+        {
+          "tag": "contato",
+          "patterns": [
+            "como entro em contato com a secretaria",
+            "telefone da secretaria",
+            "email da secretaria",
+            "contato com a secretaria",
+            "como falar com a secretaria",
+            "secretaria telefone",
+            "secretaria email",
+            "contato secretaria universidade"
+          ],
+          "responses": [
+            "Você pode entrar em contato com a secretaria pelo telefone (11) 1234-5678 ou pelo email secretaria@universidade.edu.br."
+          ]
+        }
+      ]
+    }
+  ]
+}
